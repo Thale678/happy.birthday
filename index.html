@@ -52,6 +52,10 @@
                 <i class="fas fa-music"></i>
                 <span>Play Our Song</span>
             </button>
+            <button class="reveal-btn" id="revealTimelineBtn">
+                <i class="fas fa-heart"></i>
+                <span>Discover Our Journey Together</span>
+            </button>
         </div>
         <audio id="backgroundMusic" loop>
             <source src="./love/music/setlove.mp3" type="audio/mpeg">
@@ -59,7 +63,7 @@
     </section>
 
     <!-- Timeline Section -->
-    <section class="timeline-section">
+    <section class="timeline-section hidden" id="timelineSection">
         <div class="container">
             <h2 class="section-title">Our Beautiful Journey</h2>
             <div class="timeline-carousel">
@@ -131,11 +135,15 @@
                     <span class="dot" data-slide="4"></span>
                 </div>
             </div>
+            <button class="reveal-btn" id="revealLetterBtn">
+                <i class="fas fa-envelope-heart"></i>
+                <span>Read My Heart's Message</span>
+            </button>
         </div>
     </section>
 
     <!-- Love Letter Section -->
-    <section class="love-letter-section">
+    <section class="love-letter-section hidden" id="letterSection">
         <div class="container">
             <div class="love-letter">
                 <h2 class="letter-title">A Letter From My Heart</h2>
@@ -159,12 +167,16 @@
                         <span class="signature">Your Loving Partner 💕</span>
                     </p>
                 </div>
+                <button class="reveal-btn" id="revealGalleryBtn">
+                    <i class="fas fa-images"></i>
+                    <span>Explore Our Precious Memories</span>
+                </button>
             </div>
         </div>
     </section>
 
     <!-- Photo Gallery Section -->
-    <section class="gallery-section">
+    <section class="gallery-section hidden" id="gallerySection">
         <div class="container">
             <h2 class="section-title">Our Beautiful Memories</h2>
             <div class="photo-gallery">
@@ -216,6 +228,28 @@
                         <i class="fas fa-search-plus"></i>
                     </div>
                 </div>
+            </div>
+            <button class="reveal-btn final-btn" id="revealFinalBtn">
+                <i class="fas fa-gift-heart"></i>
+                <span>One More Special Surprise</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Final Surprise Section -->
+    <section class="final-section hidden" id="finalSection">
+        <div class="container">
+            <div class="final-content">
+                <h2 class="final-title">Happy 20th Birthday, My Beautiful Love!</h2>
+                <div class="birthday-animation">
+                    <div class="cake">🎂</div>
+                    <div class="balloons">🎈🎈🎈</div>
+                </div>
+                <p class="final-message">
+                    Thank you for being the most incredible person in my life. 
+                    Here's to many more birthdays, adventures, and beautiful moments together!
+                </p>
+                <div class="confetti-container" id="confettiContainer"></div>
             </div>
         </div>
     </section>
