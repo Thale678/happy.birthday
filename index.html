@@ -1,179 +1,249 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5" name="viewport" />
-  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique:wght@400;700&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
-  <link rel="stylesheet" href="./style.css">
-  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
-
-  <!-- Update title and description for a birthday theme -->
-  <title>HBD 5.0 | Aoudumber Bade</title>
-  <link rel="icon" type="image/x-icon" href="https://www.palingit.com/favicon.ico" />
-  <meta name="description" content="A special birthday greeting" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 20th Birthday, My Love ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<body style="background: linear-gradient(to bottom, #ffe1e1, #ff217de0), url(./r.jpg);
-    height: 100vh;">
-  <audio src="./y2mate (mp3cut.net).mp3" id="linkmp3" class="sembunyi"></audio>
-
-  <div id="bodyblur">
-    <!-- Wallpaper -->
-    <img src="" id="wallpaper" />
-  </div>
-
-  <div id="Content">
-    <div id="kadoIn">
-      <!-- Gift Button -->
-      <img src="./Valentine-Surprise.png" alt="Open Gift Button" />
-    </div>
-    <p id="ket">
-      <span style="font-style: italic; color: rgb(0,0,0); margin-top: 3px !important; ">Open the gift, cutie:3</span>
-    </p>
-
-    <div class="kumpulanstiker" style="margin-top: 95px;">
-      <!-- Stickers for Content -->
-      <img src="https://media.tenor.com/4Ijycn6xFzUAAAAj/mochi-blue-roses.gif" id="fotostiker" />
-      <img src="https://feeldreams.github.io/bunga.gif" id="fotostiker1" />
-      <img src="https://feeldreams.github.io/pandacoklat.gif" id="fotostiker2" />
-      <img src="https://media.tenor.com/snFoLI-S9CQAAAAj/milk-and-mocha.gif" id="fotostiker3" />
-      <img src="https://feeldreams.github.io/emawh.gif" id="fotostiker4" />
-      <img src="https://feeldreams.github.io/pandacoklat.gif" id="fotostiker5" />
+<body>
+    <!-- Floating Hearts Animation -->
+    <div class="floating-hearts">
+        <div class="heart heart-1">💖</div>
+        <div class="heart heart-2">💕</div>
+        <div class="heart heart-3">💗</div>
+        <div class="heart heart-4">💖</div>
+        <div class="heart heart-5">💕</div>
+        <div class="heart heart-6">💗</div>
     </div>
 
-    <p id="halo" class="halo"></p>
+    <!-- Sparkles Animation -->
+    <div class="sparkles">
+        <div class="sparkle sparkle-1">✨</div>
+        <div class="sparkle sparkle-2">⭐</div>
+        <div class="sparkle sparkle-3">✨</div>
+        <div class="sparkle sparkle-4">⭐</div>
+        <div class="sparkle sparkle-5">✨</div>
+    </div>
 
-    <div>
-      <blockquote id="bq" data-text="💞">
-        <!-- Update the messages for a birthday greeting -->
-        <p id="kalimat">
-          Happy Birthday, gorgeous! Today is all about celebrating you.
-        </p>
-
-        <!-- Message -->
-        <p id="pesan1">Tap here for your birthday surprise! 🎉</p>
-        <div id="kolombaru">
-          <li id="lv1">🎂</li>
-          <li id="lv2">🎁</li>
-          <li id="lv3">🥳</li>
-          <li id="lv4">💖</li>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">Happy 20th Birthday, My Love ❤️</h1>
+            <p class="header-subtitle">Celebrating the most beautiful soul I know</p>
         </div>
+    </header>
 
-        <p id="pesan2">You shine brighter every year! ✨</p>
-        <p id="pesan3">Do you know what makes today extra special?</p>
-        <p id="pesan4" class="sty2">It’s your birthday!</p>
-        <p id="pesan5" class="sty2">
-          Today, I wish you a year filled with laughter, love, and unforgettable moments.
-        </p>
-        <p id="pesan6" class="sty2">
-          Remember, you deserve every happiness in the world. Celebrate big and enjoy every moment!
-        </p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="./love/images/r1.png" alt="My Love" class="main-photo">
+                <div class="hero-overlay">
+                    <h2 class="hero-title">Twenty Years of Beautiful You</h2>
+                    <p class="hero-text">Today we celebrate not just your birthday, but the incredible person you've become</p>
+                </div>
+            </div>
+            <button class="music-btn" id="musicBtn">
+                <i class="fas fa-music"></i>
+                <span>Play Our Song</span>
+            </button>
+        </div>
+        <audio id="backgroundMusic" loop>
+            <source src="./love/music/setlove.mp3" type="audio/mpeg">
+        </audio>
+    </section>
 
-        <!-- Next Button -->
-        <p id="opsL">Tap to continue the celebration!</p>
-      </blockquote>
+    <!-- Timeline Section -->
+    <section class="timeline-section">
+        <div class="container">
+            <h2 class="section-title">Our Beautiful Journey</h2>
+            <div class="timeline-carousel">
+                <div class="timeline-track" id="timelineTrack">
+                    <div class="timeline-item active">
+                        <div class="timeline-image">
+                            <img src="./love/images/r2.png" alt="First Meeting">
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-date">January 2020</h3>
+                            <h4 class="timeline-title">The Day We Met</h4>
+                            <p class="timeline-description">That magical moment when our eyes first met and I knew my life would never be the same.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-image">
+                            <img src="./love/images/r3.png" alt="First Date">
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-date">March 2020</h3>
+                            <h4 class="timeline-title">Our First Date</h4>
+                            <p class="timeline-description">Coffee turned into hours of conversation, and I knew I was falling for your beautiful soul.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-image">
+                            <img src="./love/images/r4.png" alt="First I Love You">
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-date">June 2020</h3>
+                            <h4 class="timeline-title">First "I Love You"</h4>
+                            <p class="timeline-description">Under the stars, I whispered those three words that changed everything between us.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-image">
+                            <img src="./love/images/r5.jpg" alt="Anniversary">
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-date">January 2021</h3>
+                            <h4 class="timeline-title">Our First Anniversary</h4>
+                            <p class="timeline-description">One year of love, laughter, and countless beautiful memories together.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-image">
+                            <img src="./love/images/r6.png" alt="Today">
+                        </div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-date">Today</h3>
+                            <h4 class="timeline-title">Your 20th Birthday</h4>
+                            <p class="timeline-description">Celebrating the most amazing person and looking forward to many more years together.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-nav">
+                    <button class="timeline-btn prev" id="prevBtn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="timeline-btn next" id="nextBtn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="timeline-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                    <span class="dot" data-slide="3"></span>
+                    <span class="dot" data-slide="4"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Love Letter Section -->
+    <section class="love-letter-section">
+        <div class="container">
+            <div class="love-letter">
+                <h2 class="letter-title">A Letter From My Heart</h2>
+                <div class="letter-content">
+                    <p class="letter-text">My Dearest Love,</p>
+                    <p class="letter-text">
+                        Today marks twenty beautiful years of your existence, and I am so grateful to be part of your journey. 
+                        Watching you grow, laugh, dream, and shine has been the greatest privilege of my life.
+                    </p>
+                    <p class="letter-text">
+                        Your kindness touches everyone around you, your smile lights up the darkest days, and your love 
+                        has transformed my world in the most beautiful ways. You are not just my partner, but my best friend, 
+                        my inspiration, and my home.
+                    </p>
+                    <p class="letter-text">
+                        As you step into this new decade, I want you to know that I believe in all your dreams and will be 
+                        right beside you as they come true. Here's to twenty more years of adventures, laughter, and love.
+                    </p>
+                    <p class="letter-signature">
+                        Forever yours,<br>
+                        <span class="signature">Your Loving Partner 💕</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Our Beautiful Memories</h2>
+            <div class="photo-gallery">
+                <div class="gallery-item" data-src="./love/images/r1.png">
+                    <img src="./love/images/r1.png" alt="Memory 1">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="./love/images/r2.png">
+                    <img src="./love/images/r2.png" alt="Memory 2">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="./love/images/r3.png">
+                    <img src="./love/images/r3.png" alt="Memory 3">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="./love/images/r4.png">
+                    <img src="./love/images/r4.png" alt="Memory 4">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="./love/images/r5.jpg">
+                    <img src="./love/images/r5.jpg" alt="Memory 5">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="./love/images/r6.png">
+                    <img src="./love/images/r6.png" alt="Memory 6">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="./love/images/r7.png">
+                    <img src="./love/images/r7.png" alt="Memory 7">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-src="./love/images/r8.png">
+                    <img src="./love/images/r8.png" alt="Memory 8">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img class="lightbox-image" id="lightboxImage" src="" alt="">
+            <div class="lightbox-nav">
+                <button class="lightbox-btn prev" id="lightboxPrev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="lightbox-btn next" id="lightboxNext">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
     </div>
 
-    <!-- Send Message Button -->
-    <div id="Tombol"><a id="By">&#128140; Next</a></div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Made with Love 💖</p>
+            <p class="footer-signature">By Your Loving Partner</p>
+        </div>
+    </footer>
 
-    <!-- Rejected Message (if needed) -->
-    <div id="pesanditolak">
-      <img id="stikerditolak" src="https://feeldreams.github.io/weee.gif" />
-      <p id="kataditolak">
-        Oops! You can’t skip this birthday magic.
-      </p>
-    </div>
-  </div>
-
-  <script>
-    // Main script remains similar; further changes are made in a.js if needed.
-    const body = document.querySelector("body");
-    const swalst = Swal.mixin({
-      timer: 2300,
-      allowOutsideClick: false,
-      showConfirmButton: false,
-      timerProgressBar: true,
-      imageHeight: 90,
-    });
-    audio = new Audio("" + linkmp3.src);
-    ftganti = 0;
-    fungsi = 0;
-    fungsiAwal = 0;
-    deffotostiker = fotostiker.src;
-    Content.style = "opacity:1;margin-top:16vh";
-    const swals = Swal.mixin({
-      allowOutsideClick: false,
-      cancelButtonColor: "#FF0040",
-      imageHeight: 80,
-    });
-
-    document.getElementById("kadoIn").onclick = function () {
-      if (fungsiAwal == 0) {
-        audio.play();
-        fungsiAwal = 1;
-        kadoIn.style =
-          "transition:all .8s ease;transform:scale(10);opacity:0";
-        wallpaper.style = "transform: scale(1.5);";
-        ket.style = "display:none";
-        setTimeout(initengahan, 300);
-        setTimeout(inipesan, 500);
-      }
-    };
-
-    async function inipesan() {
-      var { value: nama } = await swals.fire({
-        title: "What's your beautiful name?",
-        input: "text",
-      });
-      if (nama && nama.length < 11) {
-        window.nama = nama;
-        vketikhalo = "Happy Birthday, " + nama + "!";
-        mulainama();
-      } else {
-        await Swal.fire({
-          title: "Your name is lovely, but it seems a bit long.",
-          text: "Please enter a shorter name.",
-          icon: "warning",
-        });
-        inipesan();
-      }
-    }
-
-    var tanya = "How about we celebrate your birthday in style?";
-    var opstanya = "Your choice is:";
-    var tompositif = "Absolutely, let’s celebrate! 🎉";
-    var tomnegatif = "Maybe another time";
-
-    async function pertanyaan() {
-      var { isConfirmed: prtanya } = await swals.fire({
-        title: nama + ", " + tanya,
-        text: "" + opstanya,
-        imageUrl: "" + fotostiker5.src,
-        showCancelButton: true,
-        confirmButtonText: "" + tompositif,
-        cancelButtonText: "" + tomnegatif,
-      });
-      if (prtanya) {
-        pesanwhatsapp = "Yes " + nama + ", let the birthday magic begin!";
-        menuju();
-      } else {
-        pesanwhatsapp = nama + ", don't miss out on the birthday fun!";
-        await swalst.fire({
-          title: "" + kataditolak.innerHTML,
-          timer: 2000,
-          imageUrl: "" + stikerditolak.src,
-        });
-        menuju();
-      }
-    }
-  </script>
-  <script src="a.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
